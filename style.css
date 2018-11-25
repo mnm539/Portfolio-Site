@@ -1,0 +1,158 @@
+h1 {
+	color: White;
+	text-align: center;
+	background-color: #6C0014;
+	padding: 10px;
+	margin-bottom: 0;
+	font-family: 'Muli', Helvetica, sans-serif;
+}
+
+.flex-container {
+	background-color: black;
+	text-decoration: none;
+
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+
+}
+
+#nav {
+  padding: 0;
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+		border-bottom: 1px solid black;
+		text-decoration: none;
+}
+
+#nav a:link, a:visited {
+	display:block;
+    color: #ffffff;
+    background-color:black;
+    font-weight: lighter;
+    text-align:center;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Muli', Helvetica, sans-serif;
+}
+
+#nav a:hover, a:active {
+    background-color: #949399;
+}
+
+#contact {
+	display: flex;
+	flex-direction: row;
+	font-family: 'Muli', Helvetica, sans-serif;
+	font-weight: bold;
+	padding-left: 20px;
+	font-size: 1.75em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 75px;
+	color: #6C0014;
+}
+
+#about {
+	display:flex;
+	padding-left: 500px;
+	padding-right: 100px;
+	text-align: justify;
+	font-family: 'Muli', Helvetica, sans-serif;
+	font-weight: normal;
+	color: #626266;
+}
+
+#email {
+	font-size: 1.25em;
+	padding-left: 20px;
+	font-family: 'Muli', Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+h2 {
+	color: #6C0014;
+	padding-top: 0px;
+	font-family: 'Muli', Helvetica, sans-serif;
+	background-color: #949399;
+	margin-top: 0;
+}
+
+.video1{
+	border: 5px solid black;
+	background-color: black;
+	margin-bottom: 20px;
+}
+
+.video2 {
+	border: 5px solid black;
+	background-color: black;
+	margin-bottom: 20px;
+
+}
+
+h3 {
+	padding-left: 30px;
+	color: #6C0014;
+	font-family: 'Muli', Helvetica, sans-serif;
+	font-size: 20px;
+	background-color: #949399;
+	margin-top: 0;
+}
+
+.work {
+	padding-left: 30px;
+	font-family: 'Muli', Helvetica, sans-serif;
+}
+
+.extra {
+	padding-left: 50px;
+	font-family: 'Muli', Helvetica, sans-serif;
+	color: #626266;
+}
+
+.grid-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	flex-direction: row;
+}
+
+.pic {
+	margin-bottom: 20px;
+	border: 3px solid black;
+}
+
+.head {
+display: flex;
+	margin-top: 0;
+	padding-left: 75px;
+}
+
+.disclosure {
+	color: #626266;
+}
+
+#logo {
+	float: right;
+}
+
+h4{
+	color: white;
+	background-color: #6C0014;
+	font-family: 'Muli', Helvetica, sans-serif;
+	font-size: 2.25em;
+	align-content: center;
+	margin-left: 455px;
+	margin-right: 455px;
+	border: 5px solid black;
+}
